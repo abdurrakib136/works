@@ -1,0 +1,51 @@
+
+.header-area {
+    background:  #fff;
+}
+
+span.dark {
+    display:  block;
+}
+
+span.light {
+    display:  none;
+}
+
+.menu li a {
+    color:  #888 !important;
+    opacity:  1;
+}
+
+.nav-item.active-pr>a {
+    color:  #fe5700 !important;
+}
+
+.menu li a:hover {
+    color: #fe5700 !important;
+}
+
+.sigle_mem_content h4 {
+    font-size:  28px;
+    color:  #0a0a0a;
+    line-height:  28px;
+    /* font-family:  opensanslight; */
+    font-family:  'Open Sans Condensed', sans-serif;
+}
+
+.single_member_img {
+    text-align:  right;
+    position:  relative;
+    right: 0px;
+}
+
+.single_content_dit p {
+    padding-bottom:  27px;
+    font-size: 20px;
+    line-height:  30px;
+    color:  #676767;
+}
+
+.single_content_dit {
+    padding-bottom:  40px;
+    padding-top:  20px;
+}
