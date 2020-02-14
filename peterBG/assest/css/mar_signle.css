@@ -21,7 +21,6 @@ body {
     width: 27%;
     display: inline-block;
     float: left;
-    height: 476px;
 }
 
 .mar_c_area {
@@ -31,7 +30,6 @@ body {
 
 .mar_single_img img {
     width: 100%;
-    height: 100%;
 }
 
 .header-area {
