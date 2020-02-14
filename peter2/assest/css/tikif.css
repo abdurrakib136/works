@@ -1,0 +1,493 @@
+@font-face {
+    font-family: veranda;
+    src: url('../verdana/Verdana.ttf');
+}
+
+@font-face {
+    font-family: veranda-bold;
+    src: url('../verdana/Verdana_Bold.ttf');
+}
+
+@font-face {
+    font-family: calibri-Light;
+    src: url('../verdana/calibril.woff');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'veranda', 'cursive';
+    position: relative;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+ul {
+    list-style: none;
+}
+
+.container-footer {
+    width: 90%;
+    padding: 0px 15px;
+    box-sizing: border-box !important;
+    margin: auto;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+footer.footer-section {
+    min-height: 100%;
+}
+
+footer.footer-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-shadow: inset 0px 25px 0px 0px rgba(0, 0, 0, .099);
+
+    background: #222;
+}
+
+.left_footer h2 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 10px;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+ul.fo_menu li {
+    display: inline-block;
+}
+
+ul.fo_menu li a {
+    color: #999;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.right_footer {
+    text-align: right;
+}
+
+.fo_menu li a:hover {
+    color: #fe5700 !important;
+    opacity: 1;
+    border-bottom: 0px solid;
+}
+
+.fo_menu .active-pr a {
+    color: #fe5700 !IMPORTANT;
+    opacity: 0.8 !important;
+}
+
+.f_text {
+    color: #999;
+}
+
+
+.fa-twitter:hover {
+    color: #04A9F4;
+    transform: scale(1.5);
+    -webkit-transition: all .3s ease-in-out;
+}
+
+.fa-linkedin-square:hover {
+    color: #01649B;
+    transform: scale(1.5);
+    -webkit-transition: all .3s ease-in-out;
+}
+
+.fa-youtube-play:hover {
+    padding: 0px;
+    color: #FB0007;
+    transform: scale(1.5);
+    -webkit-transition: all .3s ease-in-out;
+}
+
+.fa-facebook-square:hover {
+    color: #3A559F;
+    transform: scale(1.5);
+    -webkit-transition: all .3s ease-in-out;
+}
+
+.fa-instagram:hover {
+    color: #bc0499 !important;
+    transform: scale(1.5);
+    -webkit-transition: all .3s ease-in-out;
+}
+
+.f_menu li:hover a {
+    cursor: pointer;
+    color: #fe5700 !important;
+}
+
+
+.fo_menu {
+    text-align: center;
+    border-bottom: 1px;
+    border-color: #fff;
+    opacity: 1;
+    border-bottom: #ccc 1px solid;
+    padding: 60px 0 60px;
+    text-transform: capitalize !important;
+}
+
+
+.fo_menu li a {
+    transition: all .4s;
+}
+
+.fo_menu li:hover a {
+    opacity: 1;
+    border-bottom: 0px solid;
+    color: #666 !important;
+}
+
+
+
+ul.fo_menu li a {
+    color: #999;
+    font-weight: normal;
+    text-transform: capitalize !important;
+    font-size: 18px;
+    transition: all 0.4s ease-in-out;
+}
+
+.fo_menu li a:hover {
+    color: #3A5876 !important;
+    opacity: 1;
+    /*  */
+    border-bottom: 0px solid;
+    /* border-color: #fff; */
+}
+
+.fo_menu li a:hover {
+    color: #666 !important;
+    opacity: 1;
+    /*  */
+    font-weight: bold !important;
+    border-bottom: 0px solid;
+    /* border-color: #fff; */
+}
+
+.fo_menu li a:hover {
+    color: #666 !important;
+    opacity: 1;
+    font-weight: bold !important;
+    border-bottom: 0px solid;
+    /* border-color: #fff; */
+}
+
+.fo_menu li {
+    margin-left: 18px;
+    transition: all 0.4s ease-in-out;
+    display: inline-block;
+}
+
+ul.fo_menu li:hover {
+    display: inline-block;
+    transform: scale(1.2, 1.2);
+}
+
+.f_s_ic li {
+    display: inline-block;
+    margin: 0px 45px;
+}
+
+ul.f_s_ic {
+    text-align: center;
+}
+
+.fa-linkedin-square:hover {
+    color: #01649B;
+    transform: scale(1.5);
+    -webkit-transition: all .3s ease-in-out;
+}
+
+.fa-youtube-play:hover {
+    padding: 0px;
+    color: #FB0007;
+    transform: scale(1.5);
+    -webkit-transition: all .3s ease-in-out;
+}
+
+.fa-facebook-square:hover {
+    color: #3A559F;
+    transform: scale(1.5);
+    -webkit-transition: all .3s ease-in-out;
+}
+
+
+ul.f_s_ic {
+    text-align: center;
+    border-bottom: #ccc 1px solid;
+}
+
+
+ul.fo_menu li a {
+    color: #fff !important;
+    font-weight: normal;
+    text-transform: capitalize !important;
+    font-size: 18px;
+    transition: all 0.4s ease-in-out;
+}
+
+.f_s_ic li a i {
+    font-size: 50px;
+    margin: 20px;
+    color: #fff;
+    opacity: 0.9;
+    background: transparent;
+    line-height: 20px;
+    padding: 0px;
+    border-radius: 10px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    margin-left: 20px;
+}
+
+ul.f_s_ic {
+    text-align: center;
+    border-bottom: #ccc 1px solid;
+    padding: 45px 0px;
+}
+
+.f_s_ic li a {
+    color: #fff;
+}
+
+ul.f_s_ic {
+    text-align: center;
+    border-bottom: #808080e0 1px solid;
+}
+
+.fo_menu {
+    text-align: center;
+    border-bottom: 1px;
+    border-color: #fff;
+    opacity: 1;
+    border-bottom: #808080e0 1px solid;
+    text-transform: capitalize !important;
+}
+
+
+ul.fo_menu li {
+    transition: all .4s ease-in;
+    margin: 0px 51px;
+}
+
+ul.fo_menu li:hover {
+    transition: all .4s ease-in;
+    display: inline-block;
+    transform: scale(1.2, 1.1);
+}
+
+
+.foote_two ul.fo_menu li a {
+    font-weight: normal;
+}
+
+ul.fo_menu li:hover a {
+    color: orange !important;
+    font-weight: normal !Important;
+    font-weight: 700 !Important;
+}
+
+ul.fo_menu li,
+ul.fo_menu li a {
+    transition: all .4s ease !important;
+    font-size: 20px !important;
+}
+
+ul.fo_menu li:hover {
+    transform: scale(1.2);
+}
+
+
+
+
+
+ul.fo_menu li,
+ul.fo_menu li a {
+    transition: all .3s ease-in-out !important;
+}
+
+ul.fo_menu li:hover a {
+    color: grey !important;
+    font-weight: 700 !important;
+}
+
+ul.fo_menu li,
+ul.fo_menu li a {
+    font-size: 40px !important;
+    line-height: 48px;
+}
+
+
+
+
+.f_text {
+    margin-top: 40px;
+    padding: 10px 0px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+/*start 767*/
+@media all and (max-width: 767px) {
+
+
+
+    .f_menu.f_one {
+        text-align: center;
+    }
+
+    .f_menu.f_two {
+        text-align: center;
+    }
+
+    span.dark {
+        display: block !important;
+    }
+
+    .left_footer {
+        display: none;
+    }
+
+    .right_footer {
+        text-align: center;
+    }
+
+
+
+    .f_s_ic li a i {
+        margin: 0px;
+        font-size: 20px;
+    }
+
+    .fo_menu {
+        border: none;
+        padding: 0px 0;
+    }
+
+
+    .fo_menu li {
+        margin-left: 6px;
+        margin-top: 15px;
+    }
+
+    .f_text {
+        margin-top: 0px;
+    }
+}
+
+
+
+.f_text p {
+    font-size: 25px;
+    line-height: 1.3;
+}
+
+
+ul.fo_menu li:first-child {
+    margin-left: 0px;
+}
+
+ul.fo_menu li:last-child {
+    margin-right: 0px;
+}
+
+.foote_two ul.fo_menu li a {
+    font-size: 35px !important;
+    line-height: 46px;
+}
+
+.footer_social_area {
+    margin-top: 80px;
+}
+
+
+.sidebar-img-1 {
+    box-sizing: border-box;
+}
+
+.f_s_ic li a i {
+    font-size: 50px;
+    margin: 20px;
+    color: #fff;
+    opacity: 0.9;
+    background: transparent;
+    line-height: 20px;
+    padding: 0px;
+    border-radius: 10px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    box-sizing: border-box;
+}
+
+.f_s_ic li a i {
+    font-size: 50px !important;
+    margin: 20px !important;
+}
+
+.f_s_ic li {
+    display: inline-block;
+    margin: 0px 45px !important;
+    box-sizing: border-box !important;
+}
+
+.f_s_ic li a {
+    margin: 0px !important;
+}
+
+ul.f_s_ic {
+    padding: 45px 0px !important;
+    margin: 0px !important;
+}
+
+ul.fo_menu li a {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+ul.fo_menu {
+    padding: 60px 0 60px !important;
+    box-sizing: border-box;
+    margin: 0px !important;
+}
+
+footer.footer-section, footer.footer-section * {
+    box-sizing: border-box;
+}
+
+.foooter_menu.foote_two .fo_menu {
+    padding: 60px 0px 59px !important;
+}
