@@ -257,8 +257,10 @@ ul.fo_menu li, ul.fo_menu li a {
     width: 100%;
     padding: 0px;
     display: inline-block;
-    -webkit-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
+    font-weight: 100;
+    transform: scale(1)
+    -webkit-transition: font-weight .3s ease-in-out, scale .3s ease-in-out;
+    transition: font-weight .3s ease-in-out, scale .3s ease-in-out;
 }
 
 .address-info  a:hover{
