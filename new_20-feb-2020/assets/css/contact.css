@@ -660,3 +660,7 @@ input.form-control:hover, textarea.form-control:hover {
 .thank-you-msg {
     font-size: 34px;
 }
+
+.contact-form {
+    padding: 65px 20px 50px 70px;
+}
