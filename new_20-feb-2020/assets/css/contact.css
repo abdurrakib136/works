@@ -264,7 +264,7 @@ ul.fo_menu li, ul.fo_menu li a {
     color: #666;
     font-weight: 500;
     text-decoration: none !important;
-    transform: scale(1.05);
+    transform: scale(1.15);
 }
 
 .address-info a:visited,.address-info a:active {
