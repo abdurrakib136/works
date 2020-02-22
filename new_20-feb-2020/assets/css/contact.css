@@ -266,7 +266,7 @@ ul.fo_menu li, ul.fo_menu li a {
 .address-info  a:hover{
     text-shadow: 0 0 1px #333, 0 0 1px #333;
     text-decoration: none !important;
-    transform: scale(1.2);
+    transform: scale(1.05);
 }
 
 .address-info a:visited,.address-info a:active {
@@ -660,7 +660,7 @@ input.form-control:hover, textarea.form-control:hover {
 }
 
 .thank-you-msg {
-    font-size: 37px;
+    font-size: 36.5px;
 }
 
 .contact-form {
