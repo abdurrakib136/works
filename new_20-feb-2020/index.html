@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Login │ The Terra Fund</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="icon" href="favicon.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/footer.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/login.css">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="assets/js/login.js"></script>
+
+</head>
+
+
+
+<body>
+    <style>
+
+    </style>
+
+
+
+    <div class="video-background">
+        <div class="video-foreground">
+
+
+            <div id="player"></div>
+            <script type="text/javascript" src="https://www.youtube.com/iframe_api"></script>
+            <script type="text/javascript">
+            var player;
+            function onYouTubeIframeAPIReady() {
+                player = new YT.Player('player', {
+                   
+                    videoId: 'aWLaLj_RbUA',
+                    events: {
+                        'onReady': onPlayerReady,
+                        'onStateChange': onPlayerStateChange
+                    }
+                });
+            }
+            function onPlayerReady(event) {
+                loopStart();
+                player.playVideo();
+                event.target.setPlaybackQuality('hd1080');
+            }
+            function loopStart() {
+                player.seekTo(0);   
+            }
+            function onPlayerStateChange(event) {
+                if (event.data == YT.PlayerState.PLAYING) {
+                    setTimeout(loopStart, 10000); 
+                }
+            }
+            </script>
+           
+            <!-- <iframe
+                src="https://www.youtube.com/embed/aWLaLj_RbUA?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&mute=1&playlist=aWLaLj_RbUA"
+                frameborder="0" allowfullscreen></iframe> -->
+        </div>
+    </div>
+
+    <div class="sidebar-img-1 firstimg">
+        <a href="#">
+            <img src="globe.png" class="icon-bar-img globe">
+        </a>
+    </div>
+    <header>
+        <div class="container ch-100 tbl">
+            <div class="row tbl-child">
+                <!-- <div class="col-sm-9 col-md-7 col-lg-5 mx-auto"> -->
+                <div class="col-sm-9 col-md-7 col-lg-7 mx-auto">
+                    <div class="card card-signin ">
+                        <div class="card-body">
+                            <h5 class="card-title text-center"><img src="logo.png" style="width: 85%;"></img></h5>
+                            <form class="form-signin" method="POST">
+                                <div class="input-group mb-20 usertextbox">
+                                    <div class="input-group-addon wos-key"><i class="user-dec-ico key-ico"></i></div>
+                                    <input type="input" class="form-control username" id="username" name="upass"
+                                        placeholder="Username" autocomplete="off" required>
+                                </div>
+
+                                <div class="input-group mb-20 pwdtextbox">
+                                  
+                                <div class="input-icons"> 
+                                    <div class="sidebar-img-11 eye" >
+                                            <img src="assets/images/passwordhide.png" class="icon-bar-img globe hide">
+                                    </div>
+                                  
+                                    <input class="input-field form-control password" 
+                                           type="password" id="password" name="upass"
+                                           placeholder="Password"> 
+                                </div> 
+                                </div>
+                                <button class="btn btn-lg btn-block login-btn" type="submit"><span class="logintext">Login</span></button>
+                                <div class="sorrymsg" id="sorrymsg"><p>
+                                    Sorry, we don't recognize your information, please contact <a href="mailto:impact@theterrafund.com" class="s-email">impact@theterrafund.com</a></p></div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </header>
+
+    <!-- footer area start  -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="footer_area">
+                <div class="footer_social_area">
+                    <ul class="f_s_ic">
+                        <li><a href="https://twitter.com/theterrafund"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/the-terra-fund?trk=public_profile_topcard_current_company"><i class="fa fa-linkedin-square"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UChi0zNwXAH8O5vmhG8t88PA"><i class="fa fa-youtube-play"></i></a></li>
+                        <li><a href="https://www.facebook.com/theterrafund"><i class="fa fa-facebook-square"></i></a></li>
+                        <li><a href="https://www.instagram.com/theterrafund/"><i class="fa fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+                <div class="foooter_menu">
+                    <ul class="fo_menu">
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">TEAM </a></li>
+                        <li><a href="#">IMPACT</a></li>
+                        <li><a href="#">LOGIN</a></li>
+                        <li><a href="#">CONTACT</a></li>
+
+                    </ul>
+                </div>
+                <div class="foooter_menu foote_two">
+                    <ul class="fo_menu">
+                        <li><a href="#">PRIVACY POLICY</a></li>
+                        <li><a href="#">TERMS &amp; CONDITIONS</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="f_text">
+                    <p>
+
+                        © 2020 The Terra Fund. All rights reserved.
+                    </p>
+                </div>
+
+                <div class="top_d">
+                    <div class="up">
+                        <i class="fa fa-angle-up"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>

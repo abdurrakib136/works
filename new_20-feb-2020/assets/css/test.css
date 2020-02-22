@@ -1,0 +1,23 @@
+body,html{
+    background: black;
+}
+
+.content-image {
+    background: url(../images/test.jpg)no-repeat center;
+        background-size: cover;
+}
+
+.content-image{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 0; 
+}
+
+.img-responsive{
+    text-align: center;
+    height: auto;
+    width: 100%;
+}

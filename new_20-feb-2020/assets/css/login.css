@@ -1,0 +1,276 @@
+/*
+* LOGIN PAGE DESIGN
+*/
+.usertextbox:hover .username{
+    font-size: 45px;
+    font-family: veranda-bold;
+    transform: scale(1);
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    height: 74px;
+}
+.pwdtextbox:hover .password {
+    font-size: 45px;
+    font-family: veranda-bold;
+    transform: scale(1);
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    height: 74px;
+}
+.firstimg{
+    position: fixed;
+}
+.input-icons img { 
+    position: absolute; 
+} 
+.hide{
+    padding-top: 19px !important;
+}
+.eye{
+    display: inline-block;
+    background-color: white !important;
+    right:0;
+    left: unset !important;
+    cursor: pointer;
+}
+.input-icons { 
+    width: 100%; 
+    /* height: 50px; */
+} 
+.input-field { 
+    width: 100%; 
+} 
+  
+.password{
+    width: -webkit-fill-available;
+}
+.login-btn:hover .logintext{
+    font-size: 45px;
+    transform: scale(1.3);
+    -webkit-transition: all .3s ease-in-out;
+}
+.logintext{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.sorrymsg{
+    /* display: none; */
+    visibility: hidden;
+    margin-top: 17px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.2em;
+    color: rgba(0, 0, 0, 0.90);
+}
+.sorrymsg .s-email {
+    display: inline-block;
+    transition: all .3s ease-in-out;
+}
+.sorrymsg .s-email:hover {
+    transform: scale(1.1);
+}
+.username, .password {
+    font-size: 40px;
+    border-radius: 0;
+    border: none;
+    font-family: veranda;
+}
+.login-btn {
+    font-weight: 600;
+    background: #3A5876;
+    color: #fff;
+    border: none;
+    border-radius: 0;
+    position: sticky;
+    transition: 0.3s ease-in-out all;
+}
+.login-btn:hover {
+    color: #fff;
+    background: #2B4259 !important;
+    height: 76px;
+  
+}
+.dis-pass {
+    height: 50px;
+    padding: 18px;
+    color : #2B4259;
+    cursor: pointer;
+    font-size: 45px;
+    background-color: #ffff;
+    right: 0;
+    -webkit-transition: all .3s ease-in-out;
+}
+.dis-pass:hover{
+    font-size: 50px;
+    transform: scale(1);
+    -webkit-transition: all .3s ease-in-out;
+}
+.sidebar-img-11 {
+    background: #3A5876;
+    padding: 8px 8px 8px 8px;
+    width: 66px;
+    height: 67px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 99;
+    box-sizing: initial;
+    cursor: pointer;
+}
+.sidebar-img-11 img {
+    width: 47px;
+    position: relative;
+    margin: 0px auto;
+    padding: 8px 8px 8px 8px;
+    transform: scale(1);
+    display: block;
+    -webkit-transition: all .3s ease-in-out;
+    box-sizing: initial;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+.tbl {
+    display: table;
+}
+.tbl-child {
+    vertical-align: middle;
+    display: table-cell;
+    width: 100%;
+}
+.sidebar-img-1{
+    background: #3A5876;
+    padding: 8px 8px 8px 8px;
+    width: 66px;
+    height: 67px;
+    left: 0px;
+    top: 0px;
+}
+.card-signin {
+    border: 0;
+    border-radius: 4rem;
+    background-color: rgba(255, 255, 255, 0.50);
+}
+.card-signin:hover {
+    background-color: rgba(58,88,118,0.50);
+}
+.card-signin .card-title {
+    margin-bottom: 2rem;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+.card-signin .card-body {
+    padding: 2rem 2rem 2rem 2rem;
+}
+.form-signin {
+    width: 100%;
+}
+.ch-100 {
+    height: 100vh;
+}
+.video-background {
+    background: #000;
+    position: fixed;
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index: -99;
+}
+.video-foreground,
+.video-background iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+#vidtop-content {
+    top: 0;
+    color: #fff;
+}
+.vid-info { position: absolute; top: 0; right: 0; width: 33%; background: rgba(0,0,0,0.3); color: #fff; padding: 1rem; font-family: Avenir, Helvetica, sans-serif; }
+.vid-info h1 { font-size: 2rem; font-weight: 700; margin-top: 0; line-height: 1.2; }
+.vid-info a { display: block; color: #fff; text-decoration: none; background: rgba(0,0,0,0.5); transition: .6s background; border-bottom: none; margin: 1rem auto; text-align: center; }
+@media (min-aspect-ratio: 16/9) {
+    .video-foreground { height: 300%; top: -100%; }
+}
+@media (max-aspect-ratio: 16/9) {
+    .video-foreground { width: 300%; left: -100%; }
+}
+@media all and (max-width: 600px) {
+    .vid-info { width: 50%; padding: .5rem; }
+    .vid-info h1 { margin-bottom: .2rem; }
+}
+@media all and (max-width: 500px) {
+    .vid-info .acronym { display: none; }
+}
+@media screen and (max-width: 700px) {
+    .username, .password {
+        
+        font-size: 25px;
+    }
+    .login-btn {
+        font-size: 25px;
+    }
+    .dis-pass{
+        font-size: 28px;
+        height: unset;
+    }
+    .password{
+        width: 92%;
+    }
+    .eye{
+        height: 48px !important;
+        width: 36px !important;
+    }
+    .hide{
+        width: 28px !important;
+        padding-top: 14px !important;
+      
+    }
+    .usertextbox:hover .username{
+        font-size: 25px;
+        transform: unset;
+        -webkit-transition: unset;
+        height: 51px;
+    }
+}
+@media screen and (max-width: 568px) {
+    .username, .password {
+        
+        font-size: 25px;
+    }
+    .login-btn {
+        font-size: 25px;
+    }
+    .dis-pass{
+        font-size: 28px;
+        height: unset;
+    }
+    .password{
+        width: 92%;
+    }
+    .eye{
+        height: 48px !important;
+        width: 36px !important;
+    }
+    .hide{
+        width: 28px !important;
+        padding-top: 14px !important;
+    }
+    .usertextbox:hover .username{
+        font-size: 25px;
+        transform: unset;
+        -webkit-transition:unset;
+        height: 51px;
+    }
+}
+
+/*
+* END LOGIN PAGE DESIGN
+*/
+
+
+/*
+* CONTACT PAGE DESIGN
+*/
