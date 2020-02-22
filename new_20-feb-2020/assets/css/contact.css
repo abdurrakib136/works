@@ -262,7 +262,7 @@ ul.fo_menu li, ul.fo_menu li a {
 
 .address-info  a:hover{
     color: #666;
-    font-weight: 900;
+    font-weight: 700;
     text-decoration: none !important;
     transform: scale(1.05);
 }
