@@ -257,6 +257,7 @@ ul.fo_menu li, ul.fo_menu li a {
     width: 100%;
     padding: 0px;
     display: inline-block;
+    -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
 }
 
