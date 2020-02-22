@@ -264,7 +264,6 @@ ul.fo_menu li, ul.fo_menu li a {
 }
 
 .address-info  a:hover{
-    color: #666;
     text-shadow: 0 0 .65px #333, 0 0 .65px #333;
     text-decoration: none !important;
     transform: scale(1.05);
