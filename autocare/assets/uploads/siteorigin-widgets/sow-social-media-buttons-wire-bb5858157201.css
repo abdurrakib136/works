@@ -1,0 +1,59 @@
+.so-widget-sow-social-media-buttons-wire-bb5858157201 .social-media-button-container {
+  zoom: 1;
+  text-align: left;
+  /*
+    &:after {
+        content:"";
+        display:inline-block;
+        width:100%;
+    }
+    */
+}
+.so-widget-sow-social-media-buttons-wire-bb5858157201 .social-media-button-container:before {
+  content: '';
+  display: block;
+}
+.so-widget-sow-social-media-buttons-wire-bb5858157201 .social-media-button-container:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+@media (max-width: 780) {
+  .so-widget-sow-social-media-buttons-wire-bb5858157201 .social-media-button-container {
+    text-align: left;
+  }
+}
+.so-widget-sow-social-media-buttons-wire-bb5858157201 .sow-social-media-button-facebook {
+  background: transparent;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
+  color: #7f7f7f !important;
+  border: 2px solid #7f7f7f;
+}
+.so-widget-sow-social-media-buttons-wire-bb5858157201 .sow-social-media-button-facebook:visited,
+.so-widget-sow-social-media-buttons-wire-bb5858157201 .sow-social-media-button-facebook:active,
+.so-widget-sow-social-media-buttons-wire-bb5858157201 .sow-social-media-button-facebook:hover {
+  color: #7f7f7f !important;
+}
+.so-widget-sow-social-media-buttons-wire-bb5858157201 .sow-social-media-button-facebook.ow-button-hover:hover {
+  background: #7f7f7f;
+}
+.so-widget-sow-social-media-buttons-wire-bb5858157201 .sow-social-media-button-facebook.ow-button-hover:hover {
+  color: #ffffff !important;
+}
+.so-widget-sow-social-media-buttons-wire-bb5858157201 .sow-social-media-button {
+  font-size: 1.33em;
+  padding: 0.5em 0.5em;
+  margin: 0.1em 0.1em 0.1em 0;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 1em;
+  -webkit-border-radius: 0.25em;
+  -moz-border-radius: 0.25em;
+  border-radius: 0.25em;
+}
+.so-widget-sow-social-media-buttons-wire-bb5858157201 .sow-social-media-button .sow-icon-fontawesome {
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+}
